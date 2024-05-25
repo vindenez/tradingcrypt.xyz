@@ -1,141 +1,274 @@
-[NX Daemon Server] - 2024-05-25T20:59:56.773Z - Started listening on: /var/folders/vp/cj76qmv57msg3v3m3vyy0kdc0000gn/T/6d0a12e0e8122424665d/d.sock
-[NX Daemon Server] - 2024-05-25T20:59:56.774Z - [WATCHER]: Subscribed to changes within: /Users/palvindenes/Documents/tradingcrypt.xyz (native)
-[NX Daemon Server] - 2024-05-25T20:59:56.781Z - Established a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T20:59:56.782Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-05-25T20:59:56.782Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T20:59:56.782Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T20:59:56.842Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2024-05-25T20:59:56.842Z - [REQUEST]: 
-[NX Daemon Server] - 2024-05-25T20:59:56.842Z - [REQUEST]: 
-[NX Daemon Server] - 2024-05-25T20:59:57.930Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T20:59:57.930Z - Time taken for 'total for creating and serializing project graph' 1147.1216670274734ms
-[NX Daemon Server] - 2024-05-25T20:59:57.932Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T20:59:57.932Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1148. Response time: 2.
-[NX Daemon Server] - 2024-05-25T20:59:57.934Z - [REQUEST]: Responding to the client. handleRequestFileData
-[NX Daemon Server] - 2024-05-25T20:59:57.934Z - Done responding to the client handleRequestFileData
-[NX Daemon Server] - 2024-05-25T20:59:57.934Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-05-25T20:59:57.935Z - Closed a connection. Number of open connections: 0
-[NX Daemon Server] - 2024-05-25T20:59:57.987Z - Established a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T20:59:57.988Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-05-25T20:59:57.988Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T20:59:57.988Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T20:59:57.988Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T20:59:57.989Z - Time taken for 'total for creating and serializing project graph' 0.5502499938011169ms
-[NX Daemon Server] - 2024-05-25T20:59:57.989Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T20:59:57.989Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
-[NX Daemon Server] - 2024-05-25T20:59:57.990Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T20:59:57.991Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T20:59:57.991Z - Time taken for 'total for creating and serializing project graph' 0.397957980632782ms
-[NX Daemon Server] - 2024-05-25T20:59:57.992Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T20:59:57.992Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
-[NX Daemon Server] - 2024-05-25T20:59:57.993Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-05-25T21:00:14.446Z - [WATCHER]: tradingcrypt.xyz/.gitattributes was created or restored
-[NX Daemon Server] - 2024-05-25T21:00:14.446Z - [WATCHER]: Processing file changes in outputs
-[NX Daemon Server] - 2024-05-25T21:00:14.549Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2024-05-25T21:00:14.549Z - [REQUEST]: tradingcrypt.xyz/.gitattributes
-[NX Daemon Server] - 2024-05-25T21:00:14.549Z - [REQUEST]: 
-[NX Daemon Server] - 2024-05-25T21:00:14.584Z - [REQUEST]: Responding to the client. File watch changed
-[NX Daemon Server] - 2024-05-25T21:00:14.584Z - Done responding to the client File watch changed
-[NX Daemon Server] - 2024-05-25T21:00:14.584Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-05-25T21:00:14.585Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9031659960746765ms
-[NX Daemon Server] - 2024-05-25T21:00:15.594Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T21:00:15.597Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T21:00:15.599Z - Time taken for 'total for creating and serializing project graph' 2.615959048271179ms
-[NX Daemon Server] - 2024-05-25T21:00:15.601Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T21:00:15.601Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 3. Response time: 4.
-[NX Daemon Server] - 2024-05-25T21:00:15.606Z - [REQUEST]: Responding to the client. handleRequestFileData
-[NX Daemon Server] - 2024-05-25T21:00:15.606Z - Done responding to the client handleRequestFileData
-[NX Daemon Server] - 2024-05-25T21:00:15.606Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
-[NX Daemon Server] - 2024-05-25T21:00:15.609Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T21:00:15.644Z - Closed a connection. Number of open connections: 0
-[NX Daemon Server] - 2024-05-25T21:00:15.644Z - Established a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T21:00:15.644Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-05-25T21:00:15.645Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T21:00:15.645Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T21:00:15.646Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T21:00:15.647Z - Time taken for 'total for creating and serializing project graph' 0.7783750295639038ms
-[NX Daemon Server] - 2024-05-25T21:00:15.647Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T21:00:15.647Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
-[NX Daemon Server] - 2024-05-25T21:00:15.649Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T21:00:15.650Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T21:00:15.650Z - Time taken for 'total for creating and serializing project graph' 0.6827920079231262ms
-[NX Daemon Server] - 2024-05-25T21:00:15.652Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T21:00:15.652Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
-[NX Daemon Server] - 2024-05-25T21:00:15.654Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-05-25T21:02:14.073Z - [WATCHER]: Processing file changes in outputs
-[NX Daemon Server] - 2024-05-25T21:02:19.385Z - [WATCHER]: Processing file changes in outputs
-[NX Daemon Server] - 2024-05-25T21:02:25.430Z - [WATCHER]: Processing file changes in outputs
-[NX Daemon Server] - 2024-05-25T21:02:31.186Z - [WATCHER]: Processing file changes in outputs
-[NX Daemon Server] - 2024-05-25T21:02:32.802Z - [WATCHER]: tradingcrypt.xyz was deleted
-[NX Daemon Server] - 2024-05-25T21:02:32.803Z - [REQUEST]: Responding to the client. File watch changed
-[NX Daemon Server] - 2024-05-25T21:02:32.804Z - Done responding to the client File watch changed
-[NX Daemon Server] - 2024-05-25T21:02:32.804Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
-[NX Daemon Server] - 2024-05-25T21:02:32.804Z - [WATCHER]: Processing file changes in outputs
-[NX Daemon Server] - 2024-05-25T21:02:32.804Z - Time taken for 'changed-projects' 0.3538750410079956ms
-[NX Daemon Server] - 2024-05-25T21:02:32.906Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2024-05-25T21:02:32.906Z - [REQUEST]: 
-[NX Daemon Server] - 2024-05-25T21:02:32.906Z - [REQUEST]: tradingcrypt.xyz
-[NX Daemon Server] - 2024-05-25T21:02:32.961Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.5412909984588623ms
-[NX Daemon Server] - 2024-05-25T21:02:33.811Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T21:02:33.813Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T21:02:33.817Z - Time taken for 'total for creating and serializing project graph' 1.931458055973053ms
-[NX Daemon Server] - 2024-05-25T21:02:33.818Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T21:02:33.818Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 5.
-[NX Daemon Server] - 2024-05-25T21:02:33.823Z - [REQUEST]: Responding to the client. handleRequestFileData
-[NX Daemon Server] - 2024-05-25T21:02:33.823Z - Done responding to the client handleRequestFileData
-[NX Daemon Server] - 2024-05-25T21:02:33.823Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
-[NX Daemon Server] - 2024-05-25T21:02:33.823Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T21:02:33.860Z - Closed a connection. Number of open connections: 0
-[NX Daemon Server] - 2024-05-25T21:02:33.861Z - Established a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T21:02:33.861Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-05-25T21:02:33.862Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T21:02:33.862Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T21:02:33.863Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T21:02:33.864Z - Time taken for 'total for creating and serializing project graph' 0.8608750104904175ms
-[NX Daemon Server] - 2024-05-25T21:02:33.864Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T21:02:33.864Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
-[NX Daemon Server] - 2024-05-25T21:02:33.867Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T21:02:33.867Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T21:02:33.868Z - Time taken for 'total for creating and serializing project graph' 0.6398749947547913ms
-[NX Daemon Server] - 2024-05-25T21:02:33.869Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T21:02:33.869Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
-[NX Daemon Server] - 2024-05-25T21:02:33.870Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-05-25T21:03:17.697Z - [WATCHER]: .gitattributes was created or restored
-[NX Daemon Server] - 2024-05-25T21:03:17.697Z - [WATCHER]: Processing file changes in outputs
-[NX Daemon Server] - 2024-05-25T21:03:17.800Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
-[NX Daemon Server] - 2024-05-25T21:03:17.800Z - [REQUEST]: .gitattributes
-[NX Daemon Server] - 2024-05-25T21:03:17.800Z - [REQUEST]: 
-[NX Daemon Server] - 2024-05-25T21:03:17.843Z - [REQUEST]: Responding to the client. File watch changed
-[NX Daemon Server] - 2024-05-25T21:03:17.843Z - Done responding to the client File watch changed
-[NX Daemon Server] - 2024-05-25T21:03:17.843Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-05-25T21:03:17.843Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.4025839567184448ms
-[NX Daemon Server] - 2024-05-25T21:03:18.851Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T21:03:18.853Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T21:03:18.856Z - Time taken for 'total for creating and serializing project graph' 2.8001660108566284ms
-[NX Daemon Server] - 2024-05-25T21:03:18.858Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T21:03:18.859Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 6.
-[NX Daemon Server] - 2024-05-25T21:03:18.864Z - [REQUEST]: Responding to the client. handleRequestFileData
-[NX Daemon Server] - 2024-05-25T21:03:18.864Z - Done responding to the client handleRequestFileData
-[NX Daemon Server] - 2024-05-25T21:03:18.864Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
-[NX Daemon Server] - 2024-05-25T21:03:18.865Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T21:03:18.901Z - Closed a connection. Number of open connections: 0
-[NX Daemon Server] - 2024-05-25T21:03:18.901Z - Established a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T21:03:18.901Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-05-25T21:03:18.901Z - Closed a connection. Number of open connections: 1
-[NX Daemon Server] - 2024-05-25T21:03:18.902Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T21:03:18.903Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T21:03:18.904Z - Time taken for 'total for creating and serializing project graph' 0.8736249804496765ms
-[NX Daemon Server] - 2024-05-25T21:03:18.905Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T21:03:18.905Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
-[NX Daemon Server] - 2024-05-25T21:03:18.906Z - [REQUEST]: Client Request for Project Graph Received
-[NX Daemon Server] - 2024-05-25T21:03:18.907Z - [REQUEST]: Responding to the client. project-graph
-[NX Daemon Server] - 2024-05-25T21:03:18.908Z - Time taken for 'total for creating and serializing project graph' 0.6152920126914978ms
-[NX Daemon Server] - 2024-05-25T21:03:18.908Z - Done responding to the client project-graph
-[NX Daemon Server] - 2024-05-25T21:03:18.908Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
-[NX Daemon Server] - 2024-05-25T21:03:18.910Z - Established a connection. Number of open connections: 2
-[NX Daemon Server] - 2024-05-25T21:03:34.915Z - [WATCHER]: Processing file changes in outputs
-[NX Daemon Server] - 2024-05-25T21:03:39.923Z - [WATCHER]: Processing file changes in outputs
-[NX Daemon Server] - 2024-05-25T21:04:39.447Z - [WATCHER]: Processing file changes in outputs
-[NX Daemon Server] - 2024-05-25T21:04:39.447Z - [WATCHER]: Stopping the watcher for /Users/palvindenes/Documents/tradingcrypt.xyz (sources)
-[NX Daemon Server] - 2024-05-25T21:04:39.448Z - [WATCHER]: Stopping the watcher for /Users/palvindenes/Documents/tradingcrypt.xyz (outputs)
-[NX Daemon Server] - 2024-05-25T21:04:39.448Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-05-25T22:13:17.536Z - Started listening on: /var/folders/vp/cj76qmv57msg3v3m3vyy0kdc0000gn/T/6d0a12e0e8122424665d/d.sock
+[NX Daemon Server] - 2024-05-25T22:13:17.538Z - [WATCHER]: Subscribed to changes within: /Users/palvindenes/Documents/tradingcrypt.xyz (native)
+[NX Daemon Server] - 2024-05-25T22:13:17.543Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-25T22:13:17.544Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-25T22:13:17.544Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-25T22:13:17.545Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-25T22:13:17.619Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-25T22:13:17.619Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-25T22:13:17.619Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-25T22:13:18.492Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "@nx/eslint/plugin" plugin threw an error while creating nodes from apps/backend/.eslintrc.json:
+    Error: Failed to load config "../../.eslintrc.js" to extend from.
+    Referenced from: /Users/palvindenes/Documents/tradingcrypt.xyz/apps/backend/.eslintrc.json
+        at configInvalidError (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:2648:9)
+        at ConfigArrayFactory._loadExtendedShareableConfig (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:3279:23)
+        at ConfigArrayFactory._loadExtends (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:3156:25)
+        at ConfigArrayFactory._normalizeObjectConfigDataBody (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:3095:25)
+        at _normalizeObjectConfigDataBody.next (<anonymous>)
+        at ConfigArrayFactory._normalizeObjectConfigData (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:3040:20)
+        at _normalizeObjectConfigData.next (<anonymous>)
+        at ConfigArrayFactory.loadInDirectory (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:2886:28)
+        at CascadingConfigArrayFactory._loadConfigInAncestors (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:3871:46)
+        at CascadingConfigArrayFactory.getConfigArrayForFile (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:3792:18)
+[NX Daemon Server] - 2024-05-25T22:13:18.494Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/nx@19.1.0_@swc-node+register@1.8.0_@swc+core@1.3.107/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 73.12099999189377ms
+[NX Daemon Server] - 2024-05-25T22:13:18.495Z - Done responding to the client null
+[NX Daemon Server] - 2024-05-25T22:13:18.495Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 947. Response time: 3.
+[NX Daemon Server] - 2024-05-25T22:13:18.498Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-05-25T22:14:35.458Z - [WATCHER]: .eslintrc.js was created or restored
+[NX Daemon Server] - 2024-05-25T22:14:35.459Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-25T22:14:35.562Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-25T22:14:35.562Z - [REQUEST]: .eslintrc.js
+[NX Daemon Server] - 2024-05-25T22:14:35.562Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-25T22:14:35.598Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/nx@19.1.0_@swc-node+register@1.8.0_@swc+core@1.3.107/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.109957993030548ms
+[NX Daemon Server] - 2024-05-25T22:14:44.930Z - [WATCHER]: .eslintrc.json was deleted
+[NX Daemon Server] - 2024-05-25T22:14:44.931Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-25T22:14:45.134Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-25T22:14:45.134Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-25T22:14:45.134Z - [REQUEST]: .eslintrc.json
+[NX Daemon Server] - 2024-05-25T22:14:45.168Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/nx@19.1.0_@swc-node+register@1.8.0_@swc+core@1.3.107/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9754169583320618ms
+[NX Daemon Server] - 2024-05-25T22:15:09.947Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-05-25T22:15:09.948Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-25T22:15:10.350Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-25T22:15:10.350Z - [REQUEST]: .eslintignore,.eslintrc.js
+[NX Daemon Server] - 2024-05-25T22:15:10.350Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-25T22:15:10.383Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/nx@19.1.0_@swc-node+register@1.8.0_@swc+core@1.3.107/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.6157499551773071ms
+[NX Daemon Server] - 2024-05-25T22:15:17.279Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-25T22:15:17.280Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-05-25T22:15:17.280Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-25T22:15:17.281Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-25T22:15:17.282Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-05-25T22:15:17.282Z - Time taken for 'total for creating and serializing project graph' 0.8016660213470459ms
+[NX Daemon Server] - 2024-05-25T22:15:17.284Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-05-25T22:15:17.284Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-05-25T22:15:17.375Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-05-25T22:15:17.375Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/nx@19.1.0_@swc-node+register@1.8.0_@swc+core@1.3.107/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.5215420126914978ms
+[NX Daemon Server] - 2024-05-25T22:15:17.376Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-05-25T22:15:17.376Z - Handled HASH_TASKS. Handling time: 10. Response time: 1.
+[NX Daemon Server] - 2024-05-25T22:15:35.082Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-25T22:15:35.083Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-05-25T22:15:35.083Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-25T22:15:35.084Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-25T22:15:35.085Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-05-25T22:15:35.086Z - Time taken for 'total for creating and serializing project graph' 1.1284169554710388ms
+[NX Daemon Server] - 2024-05-25T22:15:35.087Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-05-25T22:15:35.088Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2024-05-25T22:15:35.150Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-05-25T22:15:35.150Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-05-25T22:15:35.150Z - Handled HASH_TASKS. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2024-05-25T22:15:35.150Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/nx@19.1.0_@swc-node+register@1.8.0_@swc+core@1.3.107/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.5236669778823853ms
+[NX Daemon Server] - 2024-05-25T22:15:35.348Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-05-25T22:15:35.348Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-05-25T22:15:35.348Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-05-25T22:15:35.422Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-05-25T22:15:35.422Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-05-25T22:15:35.422Z - Handled PROCESS_IN_BACKGROUND. Handling time: 42. Response time: 0.
+[NX Daemon Server] - 2024-05-25T22:15:35.423Z - Uploading file artifacts
+[NX Daemon Server] - 2024-05-25T22:15:35.423Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-05-25T22:15:35.423Z - Sending EndRun request
+[Nx Cloud] Unable to detect a VCS context from the environment.
+
+ NX   RunEnd. Completed tasks
+
+
+[
+  {
+    "taskId": "backend:serve:development",
+    "startTime": "2024-05-25T22:15:35.198Z",
+    "target": "serve",
+    "projectName": "backend",
+    "hash": "15398304750958421246",
+    "hashDetails": {
+      "nodes": {
+        "backend:{projectRoot}/**/*": "18446700068838277642",
+        "{workspaceRoot}/.gitignore": "3909290391574019016",
+        "{workspaceRoot}/.nxignore": "3244421341483603138",
+        "backend:ProjectConfiguration": "5893020233825579885",
+        "{workspaceRoot}/nx.json": "2889655386574410123",
+        "backend:TsConfig": "13212889751028739518",
+        "npmDependencies": "goX0hxxGWqR/w3jBtNaUgg=="
+      },
+      "runtime": {},
+      "implicitDeps": {}
+    },
+    "params": "",
+    "uploadedToStorage": false,
+    "terminalOutputUploadedToFileStorage": false,
+    "endTime": "2024-05-25T22:15:35.348Z",
+    "status": 1,
+    "cacheStatus": "cache-miss",
+    "terminalOutput": "\r\n\u001b[0m\u001b[7m\u001b[1m\u001b[31m ...",
+    "meta": null
+  }
+]
+
+[NX Daemon Server] - 2024-05-25T22:15:35.447Z - Closed a connection. Number of open connections: 1
+RunEnd duration: 206
+[NX Daemon Server] - 2024-05-25T22:15:35.634Z - Done sending EndRun request
+[NX Daemon Server] - 2024-05-25T22:16:08.276Z - [WATCHER]: apps/app/.eslintrc.js was created or restored
+[NX Daemon Server] - 2024-05-25T22:16:08.276Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-25T22:16:08.379Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-25T22:16:08.379Z - [REQUEST]: apps/app/.eslintrc.js
+[NX Daemon Server] - 2024-05-25T22:16:08.379Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-25T22:16:08.554Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/nx@19.1.0_@swc-node+register@1.8.0_@swc+core@1.3.107/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.4235830307006836ms
+[NX Daemon Server] - 2024-05-25T22:16:27.111Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-25T22:16:27.111Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-25T22:16:27.112Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-25T22:16:27.113Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-25T22:16:27.114Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "@nx/eslint/plugin" plugin threw an error while creating nodes from apps/app/.eslintrc.js:
+    Error: Failed to load plugin 'import' declared in '.eslintrc.js#overrides[0]': Cannot find module 'eslint-plugin-import'
+    Require stack:
+    - /Users/palvindenes/Documents/tradingcrypt.xyz/apps/app/__placeholder__.js
+        at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+        at Function.resolve (node:internal/modules/helpers:136:19)
+        at Object.resolve (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:2346:46)
+        at ConfigArrayFactory._loadPlugin (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:3414:33)
+        at /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:3304:33
+        at Array.reduce (<anonymous>)
+        at ConfigArrayFactory._loadPlugins (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:3300:22)
+        at ConfigArrayFactory._normalizeObjectConfigDataBody (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:3100:44)
+        at _normalizeObjectConfigDataBody.next (<anonymous>)
+        at ConfigArrayFactory._normalizeObjectConfigData (/Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/@eslint+eslintrc@2.1.4/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:3040:20)
+[NX Daemon Server] - 2024-05-25T22:16:27.117Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/nx@19.1.0_@swc-node+register@1.8.0_@swc+core@1.3.107/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.6132910251617432ms
+[NX Daemon Server] - 2024-05-25T22:16:27.118Z - Done responding to the client null
+[NX Daemon Server] - 2024-05-25T22:16:27.118Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 4.
+[NX Daemon Server] - 2024-05-25T22:16:27.121Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-25T22:17:30.324Z - [WATCHER]: apps/app/.eslintrc.js was deleted
+[NX Daemon Server] - 2024-05-25T22:17:30.324Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-25T22:17:30.428Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-25T22:17:30.428Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-25T22:17:30.428Z - [REQUEST]: apps/app/.eslintrc.js
+[NX Daemon Server] - 2024-05-25T22:17:30.469Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/nx@19.1.0_@swc-node+register@1.8.0_@swc+core@1.3.107/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.8800840377807617ms
+[NX Daemon Server] - 2024-05-25T22:17:37.433Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-25T22:17:37.433Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-25T22:17:37.433Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-25T22:17:37.434Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-25T22:17:37.435Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-05-25T22:17:37.436Z - Time taken for 'total for creating and serializing project graph' 0.7045829892158508ms
+[NX Daemon Server] - 2024-05-25T22:17:37.437Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-05-25T22:17:37.437Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-05-25T22:17:37.509Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-05-25T22:17:37.509Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-05-25T22:17:37.509Z - Handled HASH_TASKS. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2024-05-25T22:17:37.509Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/nx@19.1.0_@swc-node+register@1.8.0_@swc+core@1.3.107/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.4828749895095825ms
+[NX Daemon Server] - 2024-05-25T22:17:37.719Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-05-25T22:17:37.719Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-05-25T22:17:37.719Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-05-25T22:17:37.762Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-05-25T22:17:37.762Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-05-25T22:17:37.762Z - Handled PROCESS_IN_BACKGROUND. Handling time: 15. Response time: 0.
+[NX Daemon Server] - 2024-05-25T22:17:37.764Z - Uploading file artifacts
+[NX Daemon Server] - 2024-05-25T22:17:37.764Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-05-25T22:17:37.764Z - Sending EndRun request
+[Nx Cloud] Unable to detect a VCS context from the environment.
+
+ NX   RunEnd. Completed tasks
+
+
+[
+  {
+    "taskId": "backend:serve:development",
+    "startTime": "2024-05-25T22:17:37.561Z",
+    "target": "serve",
+    "projectName": "backend",
+    "hash": "15398304750958421246",
+    "hashDetails": {
+      "nodes": {
+        "backend:ProjectConfiguration": "5893020233825579885",
+        "backend:TsConfig": "13212889751028739518",
+        "{workspaceRoot}/.nxignore": "3244421341483603138",
+        "{workspaceRoot}/.gitignore": "3909290391574019016",
+        "{workspaceRoot}/nx.json": "2889655386574410123",
+        "backend:{projectRoot}/**/*": "18446700068838277642",
+        "npmDependencies": "goX0hxxGWqR/w3jBtNaUgg=="
+      },
+      "runtime": {},
+      "implicitDeps": {}
+    },
+    "params": "",
+    "uploadedToStorage": false,
+    "terminalOutputUploadedToFileStorage": false,
+    "endTime": "2024-05-25T22:17:37.719Z",
+    "status": 1,
+    "cacheStatus": "cache-miss",
+    "terminalOutput": "\r\n\u001b[0m\u001b[7m\u001b[1m\u001b[31m ...",
+    "meta": null
+  }
+]
+
+[NX Daemon Server] - 2024-05-25T22:17:37.767Z - Closed a connection. Number of open connections: 1
+RunEnd duration: 188
+[NX Daemon Server] - 2024-05-25T22:17:37.952Z - Done sending EndRun request
+[NX Daemon Server] - 2024-05-25T22:17:43.773Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-25T22:17:43.774Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-25T22:17:43.774Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-25T22:17:43.775Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-25T22:17:43.775Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-05-25T22:17:43.776Z - Time taken for 'total for creating and serializing project graph' 0.6889170408248901ms
+[NX Daemon Server] - 2024-05-25T22:17:43.778Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-05-25T22:17:43.778Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-05-25T22:17:43.833Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-05-25T22:17:43.833Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-05-25T22:17:43.833Z - Handled HASH_TASKS. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2024-05-25T22:17:43.833Z - Time taken for 'Load Nx Plugin: /Users/palvindenes/Documents/tradingcrypt.xyz/node_modules/.pnpm/nx@19.1.0_@swc-node+register@1.8.0_@swc+core@1.3.107/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.5112499594688416ms
+[NX Daemon Server] - 2024-05-25T22:17:44.036Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-05-25T22:17:44.036Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-05-25T22:17:44.036Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-05-25T22:17:44.080Z - [REQUEST]: Responding to the client. PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-05-25T22:17:44.080Z - Done responding to the client PROCESS_IN_BACKGROUND
+[NX Daemon Server] - 2024-05-25T22:17:44.080Z - Handled PROCESS_IN_BACKGROUND. Handling time: 16. Response time: 0.
+[NX Daemon Server] - 2024-05-25T22:17:44.081Z - Uploading file artifacts
+[NX Daemon Server] - 2024-05-25T22:17:44.082Z - Done uploading file artifacts
+[NX Daemon Server] - 2024-05-25T22:17:44.082Z - Sending EndRun request
+[Nx Cloud] Unable to detect a VCS context from the environment.
+
+ NX   RunEnd. Completed tasks
+
+
+[
+  {
+    "taskId": "backend:serve:development",
+    "startTime": "2024-05-25T22:17:43.884Z",
+    "target": "serve",
+    "projectName": "backend",
+    "hash": "15398304750958421246",
+    "hashDetails": {
+      "nodes": {
+        "backend:ProjectConfiguration": "5893020233825579885",
+        "backend:{projectRoot}/**/*": "18446700068838277642",
+        "{workspaceRoot}/.gitignore": "3909290391574019016",
+        "backend:TsConfig": "13212889751028739518",
+        "{workspaceRoot}/.nxignore": "3244421341483603138",
+        "{workspaceRoot}/nx.json": "2889655386574410123",
+        "npmDependencies": "goX0hxxGWqR/w3jBtNaUgg=="
+      },
+      "runtime": {},
+      "implicitDeps": {}
+    },
+    "params": "",
+    "uploadedToStorage": false,
+    "terminalOutputUploadedToFileStorage": false,
+    "endTime": "2024-05-25T22:17:44.036Z",
+    "status": 1,
+    "cacheStatus": "cache-miss",
+    "terminalOutput": "\r\n\u001b[0m\u001b[7m\u001b[1m\u001b[31m ...",
+    "meta": null
+  }
+]
+
+[NX Daemon Server] - 2024-05-25T22:17:44.085Z - Closed a connection. Number of open connections: 1
+RunEnd duration: 189
+[NX Daemon Server] - 2024-05-25T22:17:44.272Z - Done sending EndRun request

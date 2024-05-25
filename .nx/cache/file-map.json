@@ -2,7 +2,18 @@
   "version": "6.0",
   "nxVersion": "19.1.0",
   "deps": {
+    "@nestjs/common": "^10.3.8",
+    "@nestjs/core": "^10.3.8",
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/passport": "^10.0.3",
+    "@nestjs/swagger": "^7.3.1",
+    "bcryptjs": "^2.4.3",
+    "ccxt": "^4.3.32",
+    "class-validator": "^0.14.1",
+    "passport-jwt": "^4.0.1",
+    "swagger-ui-express": "^5.0.0",
     "vue": "^3.3.4",
+    "@nrwl/nx-cloud": "^19.0.0",
     "@nx/devkit": "19.1.0",
     "@nx/eslint": "19.1.0",
     "@nx/eslint-plugin": "19.1.0",
@@ -65,183 +76,91 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package-lock.json",
-        "hash": "1310393641359444385"
-      },
-      {
-        "file": "tradingcrypt.xyz/.gitattributes",
-        "hash": "13194702717607086212"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "16448050467312557263"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "16362845859510497250"
-      },
-      {
-        "file": "vitest.workspace.ts",
-        "hash": "7870362608836821141"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "16877376182141465221"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
         "file": ".DS_Store",
         "hash": "15864747072677461397"
-      },
-      {
-        "file": "nx.json",
-        "hash": "12919989132599778125"
-      },
-      {
-        "file": "package.json",
-        "hash": "17883154235485027088"
-      },
-      {
-        "file": "README.md",
-        "hash": "14534558639627715032"
-      },
-      {
-        "file": ".github/workflows/ci.yml",
-        "hash": "7306566358340462886"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
       },
       {
         "file": ".editorconfig",
         "hash": "5443105041930014821"
       },
       {
-        "file": ".eslintrc.json",
-        "hash": "1097226729309206468"
+        "file": ".eslintignore",
+        "hash": "4247735199884303251"
+      },
+      {
+        "file": ".eslintrc.js",
+        "hash": "12506331495468379474"
       },
       {
         "file": ".gitattributes",
         "hash": "13194702717607086212"
       },
       {
+        "file": ".github/workflows/ci.yml",
+        "hash": "7306566358340462886"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16796434566944255525"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "16448050467312557263"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "README.md",
+        "hash": "14534558639627715032"
+      },
+      {
         "file": "apps/.DS_Store",
         "hash": "12708705811246791394"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10797480117424358723"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "11218954277803009531"
+      },
+      {
+        "file": "package.json",
+        "hash": "2310700712637646466"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "8983162271766329653"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "1329770009706368896"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "7870362608836821141"
       }
     ],
     "projectFileMap": {
-      "træding.doge": [
+      "backend": [
         {
-          "file": "apps/backend/.eslintrc.js",
-          "hash": "7461846271827386206"
+          "file": "apps/backend/.eslintrc.json",
+          "hash": "13948411440134303961"
         },
         {
-          "file": "apps/backend/.gitignore",
-          "hash": "12634402967133909834"
+          "file": "apps/backend/jest.config.ts",
+          "hash": "2625272745328306045"
         },
         {
-          "file": "apps/backend/.prettierrc",
-          "hash": "4808572120966128913"
-        },
-        {
-          "file": "apps/backend/README.md",
-          "hash": "8286378509751487236"
-        },
-        {
-          "file": "apps/backend/dist/app.controller.d.ts",
-          "hash": "5918110637397830421"
-        },
-        {
-          "file": "apps/backend/dist/app.controller.js",
-          "hash": "9394139600018192182",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/dist/app.controller.js.map",
-          "hash": "6987922235788760062"
-        },
-        {
-          "file": "apps/backend/dist/app.module.d.ts",
-          "hash": "10127694934788833983"
-        },
-        {
-          "file": "apps/backend/dist/app.module.js",
-          "hash": "6847333908458495243",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/dist/app.module.js.map",
-          "hash": "12223513010055200695"
-        },
-        {
-          "file": "apps/backend/dist/app.service.d.ts",
-          "hash": "12968058393495285153"
-        },
-        {
-          "file": "apps/backend/dist/app.service.js",
-          "hash": "13933834681286348768",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/backend/dist/app.service.js.map",
-          "hash": "12742316532180350432"
-        },
-        {
-          "file": "apps/backend/dist/main.d.ts",
-          "hash": "4595979742548113990"
-        },
-        {
-          "file": "apps/backend/dist/main.js",
-          "hash": "16596275653656081421",
-          "deps": [
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/backend/dist/main.js.map",
-          "hash": "8775263730863934127"
-        },
-        {
-          "file": "apps/backend/dist/tsconfig.build.tsbuildinfo",
-          "hash": "3644242185832621037"
-        },
-        {
-          "file": "apps/backend/nest-cli.json",
-          "hash": "789240945379598733"
-        },
-        {
-          "file": "apps/backend/package.json",
-          "hash": "8558550034090324662",
-          "deps": [
-            "npm:@typescript-eslint/eslint-plugin",
-            "npm:@typescript-eslint/parser",
-            "npm:eslint",
-            "npm:eslint-config-prettier",
-            "npm:eslint-plugin-prettier",
-            "npm:prettier",
-            "npm:source-map-support",
-            "npm:ts-node",
-            "npm:tsconfig-paths",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "apps/backend/pnpm-lock.yaml",
-          "hash": "15392871806104676337"
+          "file": "apps/backend/project.json",
+          "hash": "12427622557979863863"
         },
         {
           "file": "apps/backend/src/app.controller.spec.ts",
@@ -273,46 +192,85 @@
         },
         {
           "file": "apps/backend/src/auth/auth.controller.ts",
-          "hash": "3244421341483603138"
+          "hash": "8160007548685667577",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
         },
         {
           "file": "apps/backend/src/auth/auth.module.ts",
-          "hash": "3244421341483603138"
+          "hash": "13736231572435737132",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/passport"
+          ]
         },
         {
           "file": "apps/backend/src/auth/auth.service.ts",
-          "hash": "3244421341483603138"
+          "hash": "8476307502864515578",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:bcryptjs"
+          ]
         },
         {
           "file": "apps/backend/src/auth/jwt-auth.guard.ts",
-          "hash": "3244421341483603138"
+          "hash": "490308030298999117",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport"
+          ]
         },
         {
           "file": "apps/backend/src/auth/jwt.strategy.ts",
-          "hash": "3244421341483603138"
+          "hash": "9231140100898625793",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "npm:passport-jwt"
+          ]
         },
         {
           "file": "apps/backend/src/auth/login.dto.ts",
-          "hash": "3244421341483603138"
+          "hash": "8145537240487322727",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
         },
         {
           "file": "apps/backend/src/main.ts",
-          "hash": "16836780892212170881",
+          "hash": "7631681738789060428",
           "deps": [
-            "npm:@nestjs/core"
+            "npm:@nestjs/core",
+            "npm:@nestjs/swagger"
           ]
         },
         {
           "file": "apps/backend/src/trading/trading.controller.ts",
-          "hash": "3244421341483603138"
+          "hash": "11628774749989177451",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
         },
         {
           "file": "apps/backend/src/trading/trading.module.ts",
-          "hash": "3244421341483603138"
+          "hash": "8328198650307385922",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
         },
         {
           "file": "apps/backend/src/trading/trading.service.ts",
-          "hash": "3244421341483603138"
+          "hash": "13216428824844155005",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:ccxt"
+          ]
         },
         {
           "file": "apps/backend/test/app.e2e-spec.ts",
@@ -328,12 +286,27 @@
           "hash": "7570273541430074424"
         },
         {
-          "file": "apps/backend/tsconfig.build.json",
-          "hash": "276845246908739715"
+          "file": "apps/backend/tsconfig copy.json",
+          "hash": "3564539816870553840"
+        },
+        {
+          "file": "apps/backend/tsconfig.app.json",
+          "hash": "16023654227865315645"
         },
         {
           "file": "apps/backend/tsconfig.json",
           "hash": "1876265833229380624"
+        },
+        {
+          "file": "apps/backend/tsconfig.spec.json",
+          "hash": "6898991939206723030"
+        },
+        {
+          "file": "apps/backend/webpack.config.js",
+          "hash": "1785717660273290209",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
         }
       ],
       "app": [
@@ -362,8 +335,13 @@
           "hash": "12853736343650838597",
           "deps": [
             "npm:axios",
+            "npm:core-js",
             "npm:vue",
             "npm:@babel/core",
+            "npm:@babel/eslint-parser",
+            "npm:@vue/cli-plugin-babel",
+            "npm:@vue/cli-plugin-eslint",
+            "npm:@vue/cli-service",
             "npm:eslint",
             "npm:eslint-plugin-vue"
           ]

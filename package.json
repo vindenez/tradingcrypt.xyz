@@ -1,10 +1,41 @@
 {
-  "name": "@træding.doge/source",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {},
+  "name": "@tradingcrypt.xyz/root",
+  "displayName": "tradingcrypt.xyz",
+  "version": "0.0.1",
+  "workspaces": [
+    "app",
+    "backend"
+  ],
+  "scripts": {
+    "build": "nx run-many -t build --parallel 10",
+    "build:app": "nx build app",
+    "build:backend": "nx build backend",
+    "generate-types": "swagger-typescript-api -p http://localhost:3000/docs-json -o apps/app/src/services/api --modular --extract-enums --single-http-client --axios -n ./types.ts --type-prefix Api --clean-output",
+    "kill": "lsof -i :8080 | awk 'FNR == 2 {print $2}' | xargs kill -9",
+    "lint": "nx run-many -t lint,stylelint --parallel 10 && nx format:check --all",
+    "lint:fix": "nx run-many -t lint:fix,stylelint:fix --parallel 10 && nx format:write --all",
+    "serve:app": "nx serve app",
+    "serve:backend": "nx serve backend",
+    "test": "nx run-many -t test --parallel 10",
+    "migrations:generate": "nx migrations:generate backend",
+    "migrations:run": "nx migrations:run backend",
+    "migrations:revert": "nx migrations:revert backend",
+    "migrations:show": "nx migrations:show backend",
+    "schema:drop": "nx schema:drop backend",
+    "test:watch": "jest --watch"
+  },
   "private": true,
   "dependencies": {
+    "@nestjs/common": "^10.3.8",
+    "@nestjs/core": "^10.3.8",
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/passport": "^10.0.3",
+    "@nestjs/swagger": "^7.3.1",
+    "bcryptjs": "^2.4.3",
+    "ccxt": "^4.3.32",
+    "class-validator": "^0.14.1",
+    "passport-jwt": "^4.0.1",
+    "swagger-ui-express": "^5.0.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
