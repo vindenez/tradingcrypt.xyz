@@ -65,160 +65,76 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tradingcrypt.xyz/.gitignore",
-        "hash": "16877376182141465221"
-      },
-      {
-        "file": ".nx/cache/parsed-lock-file.json",
-        "hash": "14161326671900033940"
-      },
-      {
-        "file": "apps/app/src/App.vue",
-        "hash": "1340137925167332406"
-      },
-      {
-        "file": "tradingcrypt.xyz/.github/workflows/ci.yml",
-        "hash": "7306566358340462886"
-      },
-      {
-        "file": "tradingcrypt.xyz/.prettierignore",
-        "hash": "16448050467312557263"
-      },
-      {
-        "file": ".nx/cache/lockfile.hash",
-        "hash": "14578402410458055357"
-      },
-      {
-        "file": "apps/app/package.json",
-        "hash": "12853736343650838597"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "package.json",
-        "hash": "17883154235485027088"
+        "file": "package-lock.json",
+        "hash": "1310393641359444385"
       },
       {
         "file": "tradingcrypt.xyz/.gitattributes",
         "hash": "13194702717607086212"
       },
       {
-        "file": "nx.json",
-        "hash": "12919989132599778125"
-      },
-      {
-        "file": "apps/.DS_Store",
-        "hash": "12708705811246791394"
-      },
-      {
-        "file": "apps/app/.npmrc",
-        "hash": "10595355383850223449"
-      },
-      {
-        "file": ".DS_Store",
-        "hash": "2408652885819045148"
-      },
-      {
-        "file": "README.md",
-        "hash": "14534558639627715032"
-      },
-      {
-        "file": "apps/app/src/components/HelloWorld.vue",
-        "hash": "947532525360830582"
-      },
-      {
-        "file": ".nx/cache/project-graph.json",
-        "hash": "15101333539968529956"
-      },
-      {
-        "file": "apps/app/babel.config.js",
-        "hash": "8238727556092535180"
-      },
-      {
-        "file": "apps/app/public/favicon.ico",
-        "hash": "18282137866655320110"
-      },
-      {
-        "file": "apps/app/public/index.html",
-        "hash": "10609669007784372270"
-      },
-      {
-        "file": "apps/app/src/main.js",
-        "hash": "10824564698944073398"
-      },
-      {
-        "file": "apps/app/jsconfig.json",
-        "hash": "14600726147484760282"
-      },
-      {
-        "file": "tradingcrypt.xyz/.prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "apps/app/src/components/Trade.vue",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "tradingcrypt.xyz/.eslintrc.json",
-        "hash": "1097226729309206468"
-      },
-      {
-        "file": "apps/app/.gitignore",
-        "hash": "4767525457852752269"
-      },
-      {
-        "file": "tradingcrypt.xyz/.editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "apps/app/vue.config.js",
-        "hash": "1503844876585520685"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "1310393641359444385"
-      },
-      {
-        "file": ".nx/cache/file-map.json",
-        "hash": "7429372816206622184"
-      },
-      {
-        "file": "apps/app/README.md",
-        "hash": "13969507544125949463"
-      },
-      {
-        "file": "tradingcrypt.xyz/.vscode/extensions.json",
-        "hash": "16362845859510497250"
-      },
-      {
-        "file": "apps/app/src/components/Login.vue",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "apps/app/pnpm-lock.yaml",
-        "hash": "5846693414157023999"
-      },
-      {
-        "file": "tradingcrypt.xyz/.eslintignore",
+        "file": ".eslintignore",
         "hash": "7663861978715868291"
       },
       {
-        "file": ".nx/cache/vite.hash",
-        "hash": "1389868326933519382"
+        "file": ".prettierignore",
+        "hash": "16448050467312557263"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "16362845859510497250"
       },
       {
         "file": "vitest.workspace.ts",
         "hash": "7870362608836821141"
       },
       {
-        "file": "apps/app/src/assets/logo.png",
-        "hash": "6600670850494142607"
+        "file": ".gitignore",
+        "hash": "16877376182141465221"
       },
       {
-        "file": ".nx/cache/playwright.hash",
-        "hash": "9765897125573471620"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "15864747072677461397"
+      },
+      {
+        "file": "nx.json",
+        "hash": "12919989132599778125"
+      },
+      {
+        "file": "package.json",
+        "hash": "17883154235485027088"
+      },
+      {
+        "file": "README.md",
+        "hash": "14534558639627715032"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "7306566358340462886"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "1097226729309206468"
+      },
+      {
+        "file": ".gitattributes",
+        "hash": "13194702717607086212"
+      },
+      {
+        "file": "apps/.DS_Store",
+        "hash": "12708705811246791394"
       }
     ],
     "projectFileMap": {
@@ -238,6 +154,70 @@
         {
           "file": "apps/backend/README.md",
           "hash": "8286378509751487236"
+        },
+        {
+          "file": "apps/backend/dist/app.controller.d.ts",
+          "hash": "5918110637397830421"
+        },
+        {
+          "file": "apps/backend/dist/app.controller.js",
+          "hash": "9394139600018192182",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/dist/app.controller.js.map",
+          "hash": "6987922235788760062"
+        },
+        {
+          "file": "apps/backend/dist/app.module.d.ts",
+          "hash": "10127694934788833983"
+        },
+        {
+          "file": "apps/backend/dist/app.module.js",
+          "hash": "6847333908458495243",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/dist/app.module.js.map",
+          "hash": "12223513010055200695"
+        },
+        {
+          "file": "apps/backend/dist/app.service.d.ts",
+          "hash": "12968058393495285153"
+        },
+        {
+          "file": "apps/backend/dist/app.service.js",
+          "hash": "13933834681286348768",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/backend/dist/app.service.js.map",
+          "hash": "12742316532180350432"
+        },
+        {
+          "file": "apps/backend/dist/main.d.ts",
+          "hash": "4595979742548113990"
+        },
+        {
+          "file": "apps/backend/dist/main.js",
+          "hash": "16596275653656081421",
+          "deps": [
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/backend/dist/main.js.map",
+          "hash": "8775263730863934127"
+        },
+        {
+          "file": "apps/backend/dist/tsconfig.build.tsbuildinfo",
+          "hash": "3644242185832621037"
         },
         {
           "file": "apps/backend/nest-cli.json",
@@ -354,6 +334,85 @@
         {
           "file": "apps/backend/tsconfig.json",
           "hash": "1876265833229380624"
+        }
+      ],
+      "app": [
+        {
+          "file": "apps/app/.gitignore",
+          "hash": "4767525457852752269"
+        },
+        {
+          "file": "apps/app/.npmrc",
+          "hash": "10595355383850223449"
+        },
+        {
+          "file": "apps/app/README.md",
+          "hash": "13969507544125949463"
+        },
+        {
+          "file": "apps/app/babel.config.js",
+          "hash": "8238727556092535180"
+        },
+        {
+          "file": "apps/app/jsconfig.json",
+          "hash": "14600726147484760282"
+        },
+        {
+          "file": "apps/app/package.json",
+          "hash": "12853736343650838597",
+          "deps": [
+            "npm:axios",
+            "npm:vue",
+            "npm:@babel/core",
+            "npm:eslint",
+            "npm:eslint-plugin-vue"
+          ]
+        },
+        {
+          "file": "apps/app/pnpm-lock.yaml",
+          "hash": "5846693414157023999"
+        },
+        {
+          "file": "apps/app/public/favicon.ico",
+          "hash": "18282137866655320110"
+        },
+        {
+          "file": "apps/app/public/index.html",
+          "hash": "10609669007784372270"
+        },
+        {
+          "file": "apps/app/src/App.vue",
+          "hash": "1340137925167332406"
+        },
+        {
+          "file": "apps/app/src/assets/logo.png",
+          "hash": "6600670850494142607"
+        },
+        {
+          "file": "apps/app/src/components/HelloWorld.vue",
+          "hash": "947532525360830582"
+        },
+        {
+          "file": "apps/app/src/components/Login.vue",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/app/src/components/Trade.vue",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/app/src/main.js",
+          "hash": "10824564698944073398",
+          "deps": [
+            "npm:vue"
+          ]
+        },
+        {
+          "file": "apps/app/vue.config.js",
+          "hash": "1503844876585520685",
+          "deps": [
+            "npm:@vue/cli-service"
+          ]
         }
       ]
     }

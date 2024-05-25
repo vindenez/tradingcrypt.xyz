@@ -8,6 +8,7 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@nrwl/nx-cloud": "^19.0.0",
     "@nx/devkit": "19.1.0",
     "@nx/eslint": "19.1.0",
     "@nx/eslint-plugin": "19.1.0",

@@ -15,6 +15,7 @@
             "inputs": [
               "default",
               "^default",
+              "{workspaceRoot}/.eslintrc.json",
               "{projectRoot}/.eslintrc.js",
               "{workspaceRoot}/tools/eslint-rules/**/*",
               {
@@ -31,6 +32,41 @@
           }
         },
         "name": "træding.doge",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
+    "app": {
+      "name": "app",
+      "type": "lib",
+      "data": {
+        "root": "apps/app",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "apps/app",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          }
+        },
+        "name": "app",
         "implicitDependencies": [],
         "tags": []
       }
@@ -6757,6 +6793,33 @@
       {
         "source": "træding.doge",
         "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
+    "app": [
+      {
+        "source": "app",
+        "target": "npm:axios",
+        "type": "static"
+      },
+      {
+        "source": "app",
+        "target": "npm:vue",
+        "type": "static"
+      },
+      {
+        "source": "app",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "app",
+        "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "app",
+        "target": "npm:eslint-plugin-vue",
         "type": "static"
       }
     ],
