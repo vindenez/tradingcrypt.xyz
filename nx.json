@@ -37,14 +37,5 @@
         "targetName": "e2e"
       }
     }
-  ],
-  "nxCloudAccessToken": "ZWMxOTg5OGQtOWJjOS00MmJlLTg2YjktNGM2NWE2MWQ5MWYzfHJlYWQtd3JpdGU=",
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "nx-cloud",
-      "options": {
-        "accessToken": "OGM3MGZkZGEtMGY5OS00NWIzLThlNGUtMGZjYzhjNGUxZDNkfHJlYWQtd3JpdGU="
-      }
-    }
-  }
+  ]
 }
